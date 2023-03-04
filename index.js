@@ -29,15 +29,3 @@ function generateSinglePassword() {
     return passwordArray
 
 }
-
-
-    // let randomCharacter = Math.floor(Math.random() * 89)
-
-    // let randomCharacter = [Math.floor(Math.random() * 89)]
-    // let newCharactersArray = randomCharacter.slice(0, 15)
-    // pw1El.textContent += newCharactersArray
-    // let randomCharacter = Math.floor(Math.random() * 89)
-    // pw1El.textContent = characters[randomCharacter];
-    // pw2El.textContent = characters[randomCharacter];
-
-// generatePassword()

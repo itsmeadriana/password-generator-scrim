@@ -1,19 +1,26 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div id="title">
-            <h1>Generate a</h1>
-            <h1>random password</h1>
-            <h3>Never use an insecure password again</h3>
-            <button id="pw-gen-btn" onClick=generatePasswords()>Generate passwords</button>
+        <div class="main">
+            <div id="title">
+                <h1>Generate a</h1>
+                <h1 id="line-two">random password</h1>
+                <h3 id="tagline">Never use an insecure password again</h3>
+                <button id="pw-gen-btn" onClick=generatePasswords()>Generate passwords</button>
+            </div>
+
+            <div id="pw-results">
+                <h3 class="pw-wrapper" id="pw1"></h3>
+                <h3 class="pw-wrapper" id="pw2"></h3>
+            </div>
         </div>
 
-        <div id="pw-results">
-            <h3 id="pw1"></h3>
-            <h3 id="pw2"></h3>
-        </div>
         <script src="index.js"></script>
     </body>
 </html>
